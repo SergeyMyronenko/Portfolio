@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0 solid transparent;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  color: inherit;
+}
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  width: 120px;
+  box-sizing: border-box;
+  padding: 16px;
+  width: 100%;
+  color: #90c4fc;
+}
+
+section {
+  max-width: 100%;
+  padding: 0 16px;
+}
+
+.body {
+  background-image: url("../image/bender.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 16px 16px;
+  padding-bottom: 0;
+  border-top: 4px solid #90c4fc;
+}
+
+.header {
+  padding-top: 0;
+  position: relative;
+  height: 60px;
+  border-top: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.button-box {
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  right: 16px;
+  display: flex;
+  border-radius: 4px;
+  padding: 4px;
+  border: 1px solid #90c4fc;
+}
+
+.header-button {
+  font-family: inherit;
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
+  color: inherit;
+}
+
+.about-section {
+  padding: 16px 0;
+}
+
+.title-about {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.text-about {
+  font-size: 20px;
+}
+
+.about {
+  display: flex;
+  gap: 16px;
+}
+
+.photo {
+  height: 600px;
+}
+
+.title-project {
+  font-size: 32px;
+  margin-bottom: 24px;
+  text-align: end;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project-image {
+  border-radius: 16px;
+}
+
+.project-list-item {
+  display: flex;
+  gap: 24px;
+}
+
+.link-box {
+  display: flex;
+}
+
+.project-list-link {
+  display: block;
+  padding: 8px 16px;
+  border-radius: 24px;
+  border: 1px solid #fc2121;
+  color: #fc2121;
+}
+
+.footer {
+  position: relative;
+  width: 1280;
+  padding: 16px 0;
+}
+
+.footer-box {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-bottom {
+  display: flex;
+}
+
+.back {
+  position: fixed;
+  border-radius: 50%;
+  background-color: #9be1a0;
+}
