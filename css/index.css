@@ -143,30 +143,6 @@ section {
   border-radius: 16px;
 }
 
-.project-list-item:nth-child(even) {
-  flex-direction: row-reverse;
-}
-
-.project-list-item:nth-child(even) .link-box {
-  display: flex;
-  flex-grow: 1;
-  gap: 12px;
-  align-items: end;
-  justify-content: start;
-  padding: 16px;
-}
-
-.project-list-item:nth-child(even) .project-item-card {
-  flex-direction: row-reverse;
-}
-
-.project-list-item:nth-child(even) .project-item {
-  align-items: end;
-}
-
-.project-list-item:nth-child(even) .text-project {
-}
-
 .project-item-card {
   display: flex;
   gap: 24px;
