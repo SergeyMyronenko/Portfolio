@@ -10,10 +10,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/index.css" />
-    <title>Document</title>
+    <title>Portfolio</title>
   </head>
   <body class="body">
-    <header class="container header">
+    <header class="container header" id="header">
       <h2 class="title">Portfolio</h2>
       <div class="button-box">
         <button class="header-button">
@@ -238,84 +238,6 @@
                 >
               </div>
             </li>
-            <li class="project-list-item">
-              <div class="project-item-card">
-                <img
-                  class="project-image"
-                  src="./image/aqua.jpeg"
-                  alt=""
-                  width="240"
-                  height="240"
-                />
-                <div class="project-item">
-                  <h3 class="title-card">AquaTrack</h3>
-                  <p class="text-project">
-                    Technologies: [React/Redux, JS, Axios, Node.js, Express,
-                    REST Api, MongoDB, Vite]
-                  </p>
-                  <p>
-                    A website with an adaptive layout. This is a team project of
-                    a drinking water tracking app. Where you can control the
-                    amount of water you drink per day. And you can view the
-                    statistics of water consumed for a month. Also in this app
-                    there is a language changer.
-                  </p>
-                  <p>
-                    Role in project: [TeamLid on backend, developer on
-                    frontend/backend]
-                  </p>
-                </div>
-              </div>
-
-              <div class="link-box">
-                <a
-                  class="project-list-link"
-                  href="https://aqua-track.vercel.app/"
-                  target="_blank"
-                  >demo</a
-                >
-                <a class="project-list-link" href="">repository</a>
-              </div>
-            </li>
-            <li class="project-list-item">
-              <div class="project-item-card">
-                <img
-                  class="project-image"
-                  src="./image/aqua.jpeg"
-                  alt=""
-                  width="240"
-                  height="240"
-                />
-                <div class="project-item">
-                  <h3 class="title-card">AquaTrack</h3>
-                  <p class="text-project">
-                    Technologies: [React/Redux, JS, Axios, Node.js, Express,
-                    REST Api, MongoDB, Vite]
-                  </p>
-                  <p>
-                    A website with an adaptive layout. This is a team project of
-                    a drinking water tracking app. Where you can control the
-                    amount of water you drink per day. And you can view the
-                    statistics of water consumed for a month. Also in this app
-                    there is a language changer.
-                  </p>
-                  <p>
-                    Role in project: [TeamLid on backend, developer on
-                    frontend/backend]
-                  </p>
-                </div>
-              </div>
-
-              <div class="link-box">
-                <a
-                  class="project-list-link"
-                  href="https://aqua-track.vercel.app/"
-                  target="_blank"
-                  >demo</a
-                >
-                <a class="project-list-link" href="">repository</a>
-              </div>
-            </li>
           </ul>
         </div>
       </section>
@@ -323,59 +245,68 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-box">
-          <ul>
-            <h3 id="contacts">Contacts</h3>
+          <ul class="contacts-list">
+            <h3 class="contacts-title" id="contacts">Contacts</h3>
             <li>
-              <a href="email:sergiymyronenko.web@gmail.com">Email</a>
+              <a href="mailto:sergiymyronenko.web@gmail.com">Email</a>
             </li>
             <li>
               <a href="https://t.me/SergMyronenko" target="_blank">Telegram</a>
             </li>
             <li>
-              <a href="">Viber</a>
+              <a href="viber://add?number=380977245141">Viber(Mobile)</a>
+              <a href="viber://chat?number=+380977245141">Viber(PC)</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/sergiy-myronenko-5668b9292/"
+              <a
+                href="https://www.linkedin.com/in/sergiy-myronenko-5668b9292/"
+                target="_blank"
                 >LinkedIn</a
               >
             </li>
             <li>
-              <a href="https://github.com/SergeyMyronenko">GitHub</a>
+              <a href="https://github.com/SergeyMyronenko" target="_blank"
+                >GitHub</a
+              >
             </li>
           </ul>
           <div>
-            <h3>How you can find me?</h3>
+            <h3 class="contacts-title">My location</h3>
             <p>Ukraine, Kropyvnytskiy city</p>
-            <a href="tel:+380977245141">+38(0977245141)</a>
+            <a href="tel:+380968241277">+38(097)7245141</a>
           </div>
         </div>
         <div class="footer-bottom">
-          <p>created by Sergiy Myronenko</p>
+          <p class="footer-bottom-text">created by Sergiy Myronenko</p>
+          <span>┃</span>
           <p>2024</p>
+          <span>┃</span>
           <p>
             Photo by
             <a
-              href="https://unsplash.com/@maxwbender?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-              >Max Bender</a
+              class="footer-link"
+              target="_blank"
+              href="https://www.goodfon.ru/user/leyzif2000/"
+              >Leyzif2000</a
             >
             on
             <a
-              href="https://unsplash.com/photos/person-taking-selfie-in-front-of-mirror-during-night-time-iF5odYWB_nQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
-              >Unsplash</a
+              class="footer-link"
+              target="_blank"
+              href="https://www.goodfon.ru/abstraction/wallpaper-abstraktsiia-fon-linii-3.html#"
+              >Goodfon</a
             >
           </p>
         </div>
       </div>
 
-      <button type="button">
+      <a href="#header" type="button" class="go-up" width="48" height="48">
         <img
           class="back"
           src="./image/icons/arrow-up.svg"
           alt="arrow-up-button"
-          width="48"
-          height="48"
         />
-      </button>
+      </a>
     </footer>
     <script type="module" src="./index.js" defer></script>
   </body>

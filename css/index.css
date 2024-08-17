@@ -34,6 +34,10 @@ ol,
 ul {
   list-style: none;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Oswald", sans-serif;
   font-style: normal;
@@ -42,17 +46,16 @@ body {
   padding: 16px;
   width: 100%;
   color: #90c4fc;
+  height: 100%;
+  background-image: url("../image/abstraktsiia-fon-linii-3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 section {
   max-width: 100%;
   padding: 0 16px;
-}
-
-.body {
-  background-image: url("../image/bender.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .container {
@@ -139,7 +142,7 @@ section {
 
 .project-list-item {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 16px;
 }
 
@@ -175,7 +178,8 @@ section {
 .footer {
   position: relative;
   width: 1280;
-  padding: 16px 0;
+  padding-top: 32px;
+  padding-bottom: 16px;
 }
 
 .footer-box {
@@ -185,12 +189,21 @@ section {
 
 .footer-bottom {
   display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.go-up {
+  position: fixed;
+  padding: 12px;
+  border-radius: 50%;
+  border: 2px solid #fc2121;
+  right: 64px;
+  bottom: 32px;
 }
 
 .back {
-  position: fixed;
-  border-radius: 50%;
-  background-color: #9be1a0;
+  fill: #fc2121;
 }
 
 .title-card {
@@ -200,4 +213,18 @@ section {
 .text-project {
   padding-top: 12px;
   border-top: 2px solid #90c4fc;
+}
+
+.contacts-list {
+  width: 120px;
+}
+
+.contacts-title {
+  padding: 4px;
+  border-bottom: 2px solid #90c4fc;
+  margin-bottom: 8px;
+}
+
+.footer-link {
+  text-decoration: underline;
 }
