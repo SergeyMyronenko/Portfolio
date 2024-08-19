@@ -119,8 +119,33 @@ section {
   gap: 16px;
 }
 
+.contact-link-box {
+  width: 120px;
+  margin-top: 24px;
+  display: flex;
+  border: 2px solid #fc2121;
+  border-radius: 24px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.contact-link-box:hover {
+  scale: 1.1;
+}
+
+.contact-link {
+  color: #fc2121;
+}
+
+.contact-icon {
+  width: 32px;
+  height: 32px;
+  fill: #fc2121;
+}
+
 .photo {
-  height: 600px;
+  border-radius: 24px;
 }
 
 .title-project {
@@ -175,6 +200,10 @@ section {
   color: #fc2121;
 }
 
+.project-list-link:hover {
+  scale: 1.1;
+}
+
 .footer {
   position: relative;
   width: 1280;
@@ -184,7 +213,7 @@ section {
 
 .footer-box {
   display: flex;
-  gap: 24px;
+  gap: 40px;
 }
 
 .footer-bottom {
@@ -206,6 +235,10 @@ section {
   fill: #fc2121;
 }
 
+.go-up:hover {
+  scale: 1.1;
+}
+
 .title-card {
   font-size: 24px;
 }
@@ -223,6 +256,10 @@ section {
   padding: 4px;
   border-bottom: 2px solid #90c4fc;
   margin-bottom: 8px;
+}
+
+.contacts-item:hover {
+  scale: 1.1;
 }
 
 .footer-link {
